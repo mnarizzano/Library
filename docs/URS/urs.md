@@ -90,33 +90,36 @@ Di seguito possiamo vedere una descrizione delle principali funzionalità
 ![Use Case Diagrams](imgs/usecase.png)
 
 <a name="sp3.2.1"></a>
-#### 3.2.1 Prelievo 
+#### 3.2.1 Aggiungi Libro
+<b>Nome</b> Aggiungi Libro
 
-<b>Nome</b> Prelievo
-
-<b>Precondizioni</b> Essere in possesso di una tessera Bancomat
+<b>Precondizioni</b> 
 
 
 <b>Priorità</b> Mandatory
 
-<b>Stakeholder Principale</b> Cliente
+<b>Stakeholder Principale</b> Utente
 
 <b>Scenario Principale</b> 
 
-	1. Cliente inserisce tessera bancomat
-	2. Cliente inserisce pin corretto
-	3. Il cliente seleziona la quantità da prelevare
-	4. ATM eroga le banconote la tessera e la ricevuta
-	5. Il cliente ritira le banconote, la tessera e la ricevuta
-	6. ATM puslisce lo schermo
+	1. Il Sistema chiede di inserire un nuovo titolo
+	2. Utente inserisce un titolo
+	3. Il Sistema chiede di inserire un autore
+	4. Utente inserisce un autore
+	5. Il Sistema chiede di inserire l'anno di pubblicazione
+	6. Utente inserisce un anno
+	7. Il Sistema chiede di inserire l'ISBN
+	8. Utente inserisce ISBN 
+ 	9. Il sistema valida il nuovo libro correttamente
+   	10. Il sistema inserisce il nuovo libro in libreria
+    	11. Il sistema saluta
 
 <b>Scenario Alternativo</b> 
-	2A - Il Cliente inserisce il PIN non corretto per la terza volta
- 
- 	1. ATM Notifica che il PIN è errato 
- 	2. L'ATM notifica che non restituisce la tessera
- 	3. L'ATM va al punto 6 dello scenario principale.
-    
+	2A - L'utente inserisce un titolo non valido
+ 	
+  	1. Il sistema Notifica titolo non valido
+   	2. Il sistestema torna al punto 1 dello scenario principale
+
 <b>Scenario Alternativo</b>
 2B - Il Cliente inserisce il PIN non corretto per un numero di volte minore di 3
  
