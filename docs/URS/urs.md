@@ -121,11 +121,30 @@ Di seguito possiamo vedere una descrizione delle principali funzionalità
    	2. Il sistestema torna al punto 1 dello scenario principale
 
 <b>Scenario Alternativo</b>
-2B - Il Cliente inserisce il PIN non corretto per un numero di volte minore di 3
- 
- 	1. ATM Notifica che il PIN è errato e invita il cliente a digitarlo di nuovo 
- 	2. L'ATM incrementa il contatore dei fallimenti
- 	3. L'ATM va al punto 2 dello scenario principale.
+9A. - Esiste già un libro con lo stesso ISBN
+
+ 	1. Il sistema notifica l'utente 
+  	2. Il Sistema mostra il libro con lo stesso ISBN
+	3. Il Sistema chiede se vuole sostituire il vecchio libro
+ 	4. Utente dice si
+  	5. Il sistema cancella vecchio libro
+   	6. Il sistema Inserisce il nuovo libro
+
+<b>Scenario Alternativo</b>
+9A.4a - Utente dice no
+	1. Sistema chiede se vuole modificare l'ISBN
+ 	2. Utente dice si
+  	3. Il sistema torna al punto 8 dello scenario principale
+
+<b>Scenario Alternativo</b>   
+9A.4a.2a  - Utente dice no
+
+	1. Il sistema notifica che rimane tutto così 
+ 	2. Il sistema torna torna al punto 11 dello scenario principale
+  
+
+
+    
 
 <b>Post-Condizioni</b>
 
