@@ -132,6 +132,7 @@ Di seguito possiamo vedere una descrizione delle principali funzionalità
 
 <b>Scenario Alternativo</b>
 9A.4a - Utente dice no
+
 	1. Sistema chiede se vuole modificare l'ISBN
  	2. Utente dice si
   	3. Il sistema torna al punto 8 dello scenario principale
