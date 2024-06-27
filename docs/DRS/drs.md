@@ -163,6 +163,7 @@ specifications    </p>
     <p>This sub section should describe ...</p>
 </details>
 
+![Class Diagram](imgs/classDiagram.png)
 ##### <a name="cd-description"></a>  4.1.1.1 Class Description
 <details> 
     <summary> Put a summary of the section
